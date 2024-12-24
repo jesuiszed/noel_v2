@@ -1,0 +1,23 @@
+.container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 600px;
+  margin: 2rem auto;
+  color: #165b33;
+}
+
+.nameHighlight {
+  color: #ce2029;
+  font-weight: bold;
+}
+
+.gifts {
+  margin-top: 1.5rem;
+  font-size: 1.2em;
+}
+
+h2 {
+  margin: 0.5rem 0;
+}

@@ -1,0 +1,29 @@
+.app {
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+              url('/public/santa.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+}
+
+.title {
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: clamp(3em, 8vw, 5em);
+  background: linear-gradient(45deg, #ffd700, #fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
+  margin: 0.5em 0;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: clamp(2rem, 6vw, 3rem);
+  }
+}
